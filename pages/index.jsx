@@ -44,7 +44,9 @@ const query = gql`
       __typename
       id
       name
-      seoImage
+      seoImage {
+        url
+      }
       slug
       comingSoonSections {
         ... on ComingSoonHeaderRecord {
