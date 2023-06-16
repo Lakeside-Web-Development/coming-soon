@@ -20,22 +20,16 @@ export default function Home({ page }) {
           property='og:description'
           content='Lakeside Web Development: Crafting exceptional websites tailored to your needs. Expertise in design, development, and optimization.'
         />
-        <meta
-          property='og:image'
-          content='https://metatags.io/images/meta-tags.png'
-        />
+        <meta property='og:image' content={page.comingSoon.seoImage.url} />
 
         <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='https://lakesideweb.com' />
+        <meta property='twitter:url' content={page.comingSoon.seoImage.url} />
         <meta property='twitter:title' content='Lakeside Web Development' />
         <meta
           property='twitter:description'
           content='Lakeside Web Development: Crafting exceptional websites tailored to your needs. Expertise in design, development, and optimization.'
         />
-        <meta
-          property='twitter:image'
-          content='https://metatags.io/images/meta-tags.png'
-        />
+        <meta property='twitter:image' content={page.comingSoon.seoImage.url} />
       </Head>
       {page.comingSoon.comingSoonSections.map((section) => (
         <PageSection key={section.id} section={section} />
@@ -50,6 +44,7 @@ const query = gql`
       __typename
       id
       name
+      seoImage
       slug
       comingSoonSections {
         ... on ComingSoonHeaderRecord {
