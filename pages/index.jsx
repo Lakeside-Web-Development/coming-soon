@@ -97,6 +97,7 @@ export async function getServerSideProps() {
 		},
 	});
 	const page = await client.request(query);
+	console.log(page);
 	return {
 		props: { page },
 	};
