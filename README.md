@@ -1,38 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lakeside Web Development
 
-## Getting Started
+The official "coming soon" website for Lakeside Web Devleopment
 
-First, run the development server:
+## Purpose of this Repo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The reason that we made this repo is because of the fact that we believe in being open-source and honest with our clients, so, anything that we create _(for Lakeside)_ is publically available for the community to either take a look at, or maybe even contribute to it!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing to the project
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+It's super simple to make your own changes to the website! All you have to do is the following:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Clone this repo
+2. Make your edits
+3. "Checkout" your edits
+4. Open a PR _(pull request)_!
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+It's that easy!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+If you ever have any issues, and don't know how to code or make any technical edits, we strongly encourage that you join our Community Discord OR you can open an issue on this Github repo.
 
-## Learn More
+We will not offer support if you do not know what you are doing.
 
-To learn more about Next.js, take a look at the following resources:
+## The license
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This is protected under the GNU General Public License v3.0. You can view more about it [on this website](https://choosealicense.com/licenses/gpl-3.0/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you ever need to reach out for _(almost)_ any reason, please feel free to shoot me an email: devin@lakesidewebdev.com
