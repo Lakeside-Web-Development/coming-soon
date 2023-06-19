@@ -27,7 +27,11 @@ export default function SocialMedia({ details }) {
         <ul>
           {details.socialMediaPlatforms.map((platform, index) => (
             <li key={index} className='inline pl-3 first:pl-0'>
-              <a href={platform.link} className='hover:text-sky-700 transition'>
+              <a
+                href={platform.link}
+                className='hover:text-sky-700 transition'
+                target='_blank'
+              >
                 <DynamicIcon icon={'fa-brands fa-' + platform.icon} />
               </a>
             </li>
