@@ -5,36 +5,36 @@
 @tailwind utilities;
 
 body {
-	background-color: #111827;
+	background-color: #505763;
 }
 
 ::selection {
-	background-color: #0369a1;
-	color: #082f49;
+	background-color: #6d737d;
+	color: #a6aab0;
 }
 
-.blue__gradient {
-	background: hsla(201, 68%, 70%, 1);
+.gray__gradient {
+	background: hsla(0, 0%, 71%, 1);
 
 	background: linear-gradient(
-		90deg,
-		hsla(201, 68%, 70%, 1) 0%,
-		hsla(202, 54%, 50%, 1) 94%
+		45deg,
+		hsla(0, 0%, 71%, 1) 0%,
+		hsla(216, 5%, 81%, 1) 100%
 	);
 
 	background: -moz-linear-gradient(
-		90deg,
-		hsla(201, 68%, 70%, 1) 0%,
-		hsla(202, 54%, 50%, 1) 94%
+		45deg,
+		hsla(0, 0%, 71%, 1) 0%,
+		hsla(216, 5%, 81%, 1) 100%
 	);
 
 	background: -webkit-linear-gradient(
-		90deg,
-		hsla(201, 68%, 70%, 1) 0%,
-		hsla(202, 54%, 50%, 1) 94%
+		45deg,
+		hsla(0, 0%, 71%, 1) 0%,
+		hsla(216, 5%, 81%, 1) 100%
 	);
 
-	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7DC1E6", endColorstr="#3C92C4", GradientType=1 );
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B5B5B5", endColorstr="#CCCED1", GradientType=1 );
 
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;

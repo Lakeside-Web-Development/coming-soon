@@ -7,7 +7,7 @@ export default function RecentUpdate({ details }) {
 			<h3 className='text-xl md:text-2xl font-bold'>
 				{details.important ? (
 					<>
-						<span className='blue__gradient font-normal'>[ IMPORTANT ]</span>
+						<span className='gray__gradient font-normal'>[ IMPORTANT ]</span>
 						<br />
 					</>
 				) : (
