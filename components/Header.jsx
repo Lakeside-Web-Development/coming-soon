@@ -4,7 +4,7 @@ export default function Header({ details }) {
 			<h1 className='text-5xl md:text-6xl font-bold'>
 				{details.bigTitle}
 				<br />
-				<span className='inline relative text-4xl md:text-5xl font-normal italic mt-10 bg-right-bottom after:absolute after:w-full after:bg-sky-700 after:left-3 after:h-5 after:-z-[1] after:-bottom-1 md:after:bottom-0'>
+				<span className='inline relative text-4xl md:text-5xl font-normal italic mt-10 bg-right-bottom after:absolute after:w-full after:bg-accent after:left-3 after:h-5 after:-z-[1] after:-bottom-1 md:after:bottom-0'>
 					{details.smallTitle}
 				</span>
 			</h1>
