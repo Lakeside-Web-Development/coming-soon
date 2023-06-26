@@ -81,6 +81,7 @@ const query = gql`
 								icon
 								content
 								href
+								openInNewTab
 							}
 							socialMediaPlatforms {
 								icon

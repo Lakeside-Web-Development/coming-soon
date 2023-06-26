@@ -15,9 +15,19 @@ export default function SocialMedia({ details }) {
 					{details.contactMethods.map((method, index) => (
 						<li key={index}>
 							<DynamicIcon icon={method.icon} />{" "}
-							<a href={method.href} className='hover:text-accent2 transition'>
-								{method.content}
-							</a>
+							{method.openInNewTab ? (
+								<a
+									href={method.href}
+									className='hover:text-accent2 transition'
+									target='_blank'
+								>
+									{method.content}
+								</a>
+							) : (
+								<a href={method.href} className='hover:text-accent2 transition'>
+									{method.content}
+								</a>
+							)}
 						</li>
 					))}
 				</ul>
