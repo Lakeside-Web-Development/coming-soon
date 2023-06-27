@@ -1,4 +1,3 @@
-import { analytics } from '@/scripts/analytics';
 import '@/styles/globals.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
