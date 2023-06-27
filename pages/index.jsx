@@ -1,19 +1,11 @@
 import PageSection from '@/components/PageSection';
 import { gql, GraphQLClient } from 'graphql-request';
 import Head from 'next/head';
-import Script from 'next/script';
 
 export default function Home({ page }) {
   return (
-    <div className='font-inter flex flex-col items-center justify-center w-screen h-screen'>
+    <>
       <Head>
-        <title>Lakeside Web Development</title>
-        <meta name='title' content='Lakeside Web Development' />
-        <meta
-          name='description'
-          content='Lakeside Web Development: Crafting exceptional websites tailored to your needs. Expertise in design, development, and optimization.'
-        />
-
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://lakesideweb.com' />
         <meta property='og:title' content='Lakeside Web Development' />
@@ -36,19 +28,12 @@ export default function Home({ page }) {
           content='Lakeside Web Development: Crafting exceptional websites tailored to your needs. Expertise in design, development, and optimization.'
         />
       </Head>
-      <Script>
-        <script
-          async
-          src='https://www.googletagmanager.com/gtag/js?id=G-SMWQMZXH22'
-        ></script>
-        window.dataLayer = window.dataLayer || []; function gtag()
-        {dataLayer.push(arguments)}
-        gtag('js', new Date()); gtag('config', process.env.GTAG);
-      </Script>
-      {page.comingSoon.comingSoonSections.map((section) => (
-        <PageSection key={section.id} section={section} />
-      ))}
-    </div>
+      <div className='font-inter flex flex-col items-center justify-center w-screen h-screen'>
+        {page.comingSoon.comingSoonSections.map((section) => (
+          <PageSection key={section.id} section={section} />
+        ))}
+      </div>
+    </>
   );
 }
 
