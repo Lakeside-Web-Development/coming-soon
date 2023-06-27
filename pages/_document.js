@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang='en'>
       <Head>
-        <title>Lakeside Web Development</title>
         <meta name='title' content='Lakeside Web Development' />
         <meta
           name='description'
