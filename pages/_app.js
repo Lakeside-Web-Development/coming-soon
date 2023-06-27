@@ -10,9 +10,6 @@ import { useEffect } from 'react';
 library.add(fab, fas);
 
 export default function App({ Component, pageProps }) {
-  useEffect(() => {
-    analytics(window, document, 'script', 'dataLayer', process.env.GTAG);
-  });
   return (
     <>
       <Head>
