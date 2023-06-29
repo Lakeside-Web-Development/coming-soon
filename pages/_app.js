@@ -5,7 +5,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 
 import Head from 'next/head';
-import { useEffect } from 'react';
+
+import { Analytics } from '@vercel/analytics/react';
 
 library.add(fab, fas);
 
@@ -16,6 +17,7 @@ export default function App({ Component, pageProps }) {
         <title>Lakeside Web Development</title>
       </Head>
       <Component {...pageProps} />;
+      <Analytics />
     </>
   );
 }
