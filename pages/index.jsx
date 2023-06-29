@@ -7,11 +7,14 @@ export default function Home({ page }) {
     <>
       <Head>
         <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://lakesideweb.com' />
-        <meta property='og:title' content='Lakeside Web Development' />
+        <meta property='og:url' content='https://lakesidewebdev.com/' />
+        <meta
+          property='og:title'
+          content='Professional Web Design - Harrison, MI - With You From Concept To Code: Lakeside Web Development'
+        />
         <meta
           property='og:description'
-          content='Lakeside Web Development: Crafting exceptional websites tailored to your needs. Expertise in design, development, and optimization.'
+          content='Crafting exceptional websites tailored to your needs. Expertise in design, development, and optimization. Contact us today!'
         />
         <meta property='og:image' content={page.comingSoon.seoImage.url} />
 
@@ -25,7 +28,7 @@ export default function Home({ page }) {
         />
         <meta
           property='twitter:description'
-          content='Lakeside Web Development: Crafting exceptional websites tailored to your needs. Expertise in design, development, and optimization.'
+          content='Crafting exceptional websites tailored to your needs. Expertise in design, development, and optimization. Contact us today!'
         />
       </Head>
       <div className='font-inter flex flex-col items-center justify-center w-screen h-screen'>
