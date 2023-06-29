@@ -31,7 +31,7 @@ export default function Home({ page }) {
           content='Crafting exceptional websites tailored to your needs. Expertise in design, development, and optimization. Contact us today!'
         />
       </Head>
-      <div className='font-inter flex flex-col items-center justify-center w-screen h-screen'>
+      <div className='font-inter mt-[20vh] flex flex-col justify-center items-center'>
         {page.comingSoon.comingSoonSections.map((section) => (
           <PageSection key={section.id} section={section} />
         ))}
