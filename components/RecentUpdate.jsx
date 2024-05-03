@@ -1,4 +1,5 @@
 import Markdown from 'react-markdown';
+import '../styles/update.module.css';
 
 export default function RecentUpdate({ details }) {
   const date = details.date.split('-');
@@ -17,9 +18,9 @@ export default function RecentUpdate({ details }) {
         )}
         {details.title}
       </h3>
-      <p className='text-lg md:text-xl mt-1 border-gray-500 rounded-l-sm max-w-3xl md:px-3 md:border-l-4'>
-        <Markdown>{details.update}</Markdown>
-      </p>
+      <Markdown className='text-lg md:text-xl mt-1 border-gray-500 rounded-l-sm max-w-3xl md:px-3 md:border-l-4'>
+        {details.update}
+      </Markdown>
       <br />
       <p className='text-md md:text-lg'>
         {details.author}, {details.authorTitle}
