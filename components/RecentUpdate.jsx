@@ -1,3 +1,5 @@
+import Markdown from 'react-markdown';
+
 export default function RecentUpdate({ details }) {
   const date = details.date.split('-');
   const properDate = `${date[1]}/${date[2]}/${date[0]}`;
@@ -15,13 +17,9 @@ export default function RecentUpdate({ details }) {
         )}
         {details.title}
       </h3>
-      <p className='text-lg md:text-xl mt-1 border-gray-500 rounded-l-sm max-w-3xl md:px-3 md:border-l-4'>
-        Please reference the newest{' '}
-        <a href='https://docs.google.com/document/d/1JU70rvYUCpp6wGiCR8i7nnoBnzC2MUVgzTQbFZfWO3E/edit?usp=sharing'>
-          infromation release
-        </a>
-        .
-      </p>
+      <Markdown className='text-lg md:text-xl mt-1 border-gray-500 rounded-l-sm max-w-3xl md:px-3 md:border-l-4'>
+        {details.update}
+      </Markdown>
       <br />
       <p className='text-md md:text-lg'>
         {details.author}, {details.authorTitle}
