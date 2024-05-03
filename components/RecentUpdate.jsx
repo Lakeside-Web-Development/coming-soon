@@ -1,5 +1,4 @@
 import Markdown from 'react-markdown';
-import '../styles/update.module.css';
 
 export default function RecentUpdate({ details }) {
   const date = details.date.split('-');
